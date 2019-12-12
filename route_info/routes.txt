@@ -1,0 +1,40 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+4062,RTCSNV,101,Rainbow,,3,http://www.rtcsnv.com/wp-content/uploads/routes/101.pdf,0000FF,FFFFFF
+4063,RTCSNV,102,Jones,,3,http://www.rtcsnv.com/wp-content/uploads/routes/102.pdf,0000FF,FFFFFF
+4064,RTCSNV,103,Decatur,,3,http://www.rtcsnv.com/wp-content/uploads/routes/103.pdf,0000FF,FFFFFF
+4065,RTCSNV,104,Valley View/Arville,,3,http://www.rtcsnv.com/wp-content/uploads/routes/104.pdf,0000FF,FFFFFF
+4066,RTCSNV,105,Martin L. King,,3,http://www.rtcsnv.com/wp-content/uploads/routes/105.pdf,0000FF,FFFFFF
+4067,RTCSNV,106,Rancho/Centennial Hills,,3,http://www.rtcsnv.com/wp-content/uploads/routes/106.pdf,0000FF,FFFFFF
+4068,RTCSNV,108,Paradise,,3,http://www.rtcsnv.com/wp-content/uploads/routes/108.pdf,0000FF,FFFFFF
+4069,RTCSNV,109,Maryland Pkwy.,,3,http://www.rtcsnv.com/wp-content/uploads/routes/109.pdf,0000FF,FFFFFF
+4070,RTCSNV,110,Eastern,,3,http://www.rtcsnv.com/wp-content/uploads/routes/110.pdf,0000FF,FFFFFF
+4071,RTCSNV,111,Pecos/Green Valley Pkwy.,,3,http://www.rtcsnv.com/wp-content/uploads/routes/111.pdf,0000FF,FFFFFF
+4072,RTCSNV,113,Las Vegas Blvd North,,3,http://www.rtcsnv.com/wp-content/uploads/routes/113.pdf,0000FF,FFFFFF
+4073,RTCSNV,115,Nellis/Stephanie,,3,http://www.rtcsnv.com/wp-content/uploads/routes/115.pdf,0000FF,FFFFFF
+4074,RTCSNV,117,Las Vegas Bl. South/Silverado Ranch,,3,http://www.rtcsnv.com/wp-content/uploads/routes/117.pdf,0000FF,FFFFFF
+4075,RTCSNV,119,Simmons/Koval,,3,http://www.rtcsnv.com/wp-content/uploads/routes/119.pdf,0000FF,FFFFFF
+4076,RTCSNV,120,Fort Apache/Rampart,,3,http://www.rtcsnv.com/wp-content/uploads/routes/120.pdf,0000FF,FFFFFF
+4077,RTCSNV,121,Durango/Buffalo,,3,http://www.rtcsnv.com/wp-content/uploads/routes/121.pdf,0000FF,FFFFFF
+4078,RTCSNV,122,S. Maryland Pkwy/Horizon Ridge,,3,http://www.rtcsnv.com/wp-content/uploads/routes/122.pdf,0000FF,FFFFFF
+4079,RTCSNV,201,Tropicana,,3,http://www.rtcsnv.com/wp-content/uploads/routes/201.pdf,0000FF,FFFFFF
+4080,RTCSNV,202,Flamingo,,3,http://www.rtcsnv.com/wp-content/uploads/routes/202.pdf,0000FF,FFFFFF
+4081,RTCSNV,203,Spring Mtn./Desert Inn/Lamb,,3,http://www.rtcsnv.com/wp-content/uploads/routes/203.pdf,0000FF,FFFFFF
+4082,RTCSNV,206,Charleston,,3,http://www.rtcsnv.com/wp-content/uploads/routes/206.pdf,0000FF,FFFFFF
+4083,RTCSNV,207,Alta/Stewart,,3,http://www.rtcsnv.com/wp-content/uploads/routes/207.pdf,0000FF,FFFFFF
+4084,RTCSNV,208,Washington,,3,http://www.rtcsnv.com/wp-content/uploads/routes/208.pdf,0000FF,FFFFFF
+4085,RTCSNV,209,Vegas/Owens,,3,http://www.rtcsnv.com/wp-content/uploads/routes/209.pdf,0000FF,FFFFFF
+4086,RTCSNV,210,Lake Mead Blvd.,,3,http://www.rtcsnv.com/wp-content/uploads/routes/210.pdf,0000FF,FFFFFF
+4087,RTCSNV,212,Sunset,,3,http://www.rtcsnv.com/wp-content/uploads/routes/212.pdf,0000FF,FFFFFF
+4088,RTCSNV,214,H Street/D Street,,3,http://www.rtcsnv.com/wp-content/uploads/routes/214.pdf,0000FF,FFFFFF
+4089,RTCSNV,215,Bonanza,,3,http://www.rtcsnv.com/wp-content/uploads/routes/215.pdf,0000FF,FFFFFF
+4090,RTCSNV,217,Warm Springs/Downtown Henderson,,3,http://www.rtcsnv.com/wp-content/uploads/routes/217.pdf,0000FF,FFFFFF
+4091,RTCSNV,218,Cheyenne,,3,http://www.rtcsnv.com/wp-content/uploads/routes/218.pdf,0000FF,FFFFFF
+4092,RTCSNV,219,Craig Rd,,3,http://www.rtcsnv.com/wp-content/uploads/routes/219.pdf,0000FF,FFFFFF
+4093,RTCSNV,DEUCE,The Deuce/Strip,,3,http://www.rtcsnv.com/wp-content/uploads/routes/deuce.pdf,0000FF,FFFFFF
+4095,RTCSNV,SDX,Strip & Downtown Express,,3,http://www.rtcsnv.com/wp-content/uploads/routes/sdx.pdf,0000FF,FFFFFF
+4096,RTCSNV,BHX,Boulder Highway Express,,3,http://www.rtcsnv.com/wp-content/uploads/routes/bhx.pdf,0000FF,FFFFFF
+4097,RTCSNV,SX,Sahara Express,,3,http://www.rtcsnv.com/wp-content/uploads/routes/sx.pdf,0000FF,FFFFFF
+4098,RTCSNV,CX,Centennial Express,,3,http://www.rtcsnv.com/wp-content/uploads/routes/cx.pdf,0000FF,FFFFFF
+4099,RTCSNV,WAX,Westcliff Airport Express,,3,http://www.rtcsnv.com/wp-content/uploads/routes/wax.pdf,0000FF,FFFFFF
+4100,RTCSNV,HDX,Henderson & Downtown Express,,3,http://www.rtcsnv.com/wp-content/uploads/routes/hdx.pdf,0000FF,FFFFFF
+4101,RTCSNV,DVX,Downtown & Vets. Med. Ctr. Express,,3,http://www.rtcsnv.com/wp-content/uploads/routes/dvx.pdf,0000FF,FFFFFF
