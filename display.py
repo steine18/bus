@@ -4,6 +4,7 @@ from board import SCL, SDA
 import busio
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_ssd1306
+from datetime import datetime
 
 i2c = busio.I2C(SCL, SDA)
 
