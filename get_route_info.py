@@ -32,24 +32,24 @@ def time_check(stop_times):
 	return(stop_times)
 
 def next_stop_info(nearby_stop_times):
-trips_dict = {}
-for i in trips:
-	trips_dict[i[2]] = i[3]
-for stop in nearby_stop_times:
-	stop.append(trips_dict[stop[0]])
-routes = []
-for stop in nearby_stop_times:
-	if stop[-1] not in routes:
-		routes.append(stop[-1])
-next_stop = {}
-for route in routes:
-	filtered_stops = [stop for stop in nearby_stop_times if stop[-1] == route and datetime.strptime(stop[1], date_format) > datetime.now()]
-	if route not in next_stop.keys():
-		next_stop[route] = filtered_stops[0]
-	for stop in filtered_stops:
-		if datetime.strptime(next_stop[route][1], date_format) > datetime.strptime(stop[1], date_format):
-			next_stop[route] = stop
-	return(next_stop)	
+	trips_dict = {}
+	for i in trips:
+		trips_dict[i[2]] = i[3]
+	for stop in nearby_stop_times:
+		stop.append(trips_dict[stop[0]])
+	routes = []
+	for stop in nearby_stop_times:
+		if stop[-1] not in routes:
+			routes.append(stop[-1])
+	next_stop = {}
+	for route in routes:
+		filtered_stops = [stop for stop in nearby_stop_times if stop[-1] == route and datetime.strptime(stop[1], date_format) > datetime.now()]
+		if route not in next_stop.keys():
+			next_stop[route] = filtered_stops[0]
+		for stop in filtered_stops:
+			if datetime.strptime(next_stop[route][1], date_format) > datetime.strptime(stop[1], date_format):
+				next_stop[route] = stop
+		return(next_stop)	
 
 def format_stops(stop_info):
 	for stop in stop_info.keys():
@@ -80,13 +80,13 @@ def display_text(stop):
 	return((rsb, stop[1], stop[2]))
 
 if __name__ == '__main__':
-files = ['stop_times', 'stops', 'routes', 'agency', 'trips', 'calendar', 'calendar_dates', 'shapes']
-date_format = '%Y-%m-%d %H:%M:%S'
-for file in files:
-	exec(f'{file} = get_info("{file}")')
+	files = ['stop_times', 'stops', 'routes', 'agency', 'trips', 'calendar', 'calendar_dates', 'shapes']
+	date_format = '%Y-%m-%d %H:%M:%S'
+	for file in files:
+		exec(f'{file} = get_info("{file}")')
 
-nearby_stops = ['775', '776', '838', '839']
-nearby_stop_times = time_check([i for i in stop_times if i[3] in nearby_stops])
+	nearby_stops = ['775', '776', '838', '839']
+	nearby_stop_times = time_check([i for i in stop_times if i[3] in nearby_stops])
 
 while True:
 	next_stop = next_stop_info(nearby_stop_times)
