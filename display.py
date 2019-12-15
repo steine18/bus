@@ -36,16 +36,25 @@ x = 0
 # Load default font.
 font = ImageFont.load_default()
 
-def display(stop_info):
-# Draw a black filled box to clear the image.
+def display(rsb, arrival, departure):
+	time = datetime.now()
+	ctime = datetime.strftime(time, '%H:%M')
+	tformat = '%Y-%m-%d %H:%M:%S'
+	arrive = (datetime.strptime(arrival, tformat) - time).seconds//60
+	depart = (datetime.strptime(departure, tformat) - time).seconds//60
+	# Draw a black filled box to clear the image.
 	draw.rectangle((0, 0, width, height), outline=0, fill=0)
 	# Write four lines of text.
-	offset = 0
-	for stop in stop_info.keys():
-		draw.text((x, top + offset), f'{stop}', font=font, fill=255)
-		offset += 8
-		draw.text((x, top + offset), f'{stop_info[stop][1]}', font=font, fill=255)
-		offset += 8
+	offset = 8
+	w,h = draw.textsize(ctime)
+	draw.text(((width-w)/2, top+ offset), datetime.strftime(time, '%H:%M'), font=font, fill=255)
+	offset +=8
+	draw.text((x, top + offset), f'{rsb}', font=font, fill=255)
+	offset += 8
+	draw.text((x, top + offset), f'Arives in {arrive} minutes', font=font, fill=255)
+	offset += 8
+	draw.text((x, top + offset), f'Departs in {depart} minutes', font=font, fill=255)
+	offset += 8
 	# Display image.
 	disp.image(image)
 	disp.show()
