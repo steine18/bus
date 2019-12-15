@@ -88,8 +88,8 @@ if __name__ == '__main__':
 	nearby_stops = ['775', '776', '838', '839']
 	nearby_stop_times = time_check([i for i in stop_times if i[3] in nearby_stops])
 
-while True:
-	next_stop = next_stop_info(nearby_stop_times)
-	for stop in next_stop.keys():
-		display(*display_text(next_stop[stop]))
-		sleep(5)
+	while True:
+		next_stop = next_stop_info(nearby_stop_times)
+		for stop in next_stop.keys():
+			display(*display_text(next_stop[stop]))
+			sleep(5)
